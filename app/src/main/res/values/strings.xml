@@ -3,4 +3,18 @@
     <string name="google_logo">google_logo</string>
     <string name="logo">Logo</string>
     <string name="buat_akun">BUAT AKUN</string>
+    <string name="fb_logo">fb_logo</string>
+    <string name="email">Email</string>
+    <string name="login">LOGIN</string>
+    <string name="pasword">Pasword</string>
+    <string name="username">Username</string>
+    <string name="hello_world">Hello World</string>
+    <string name="nama">Nama</string>
+    <string name="nama_bank_sampah">Nama Bank Sampah</string>
+    <string name="bank_sampah">Bank Sampah</string>
+    <string name="nama_petugas">Nama Petugas</string>
+    <string name="nama_nasabah">Nama Nasabah</string>
+    <string name="Nama">Nama Bank Sampah</string>
+    <string name="petugas">Nama Petugas</string>
+    <string name="nasabah">Nama Nasabah</string>
 </resources>

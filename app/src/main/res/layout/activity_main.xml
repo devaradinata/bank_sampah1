@@ -36,7 +36,7 @@
             android:layout_marginTop="20dp"
             android:autofillHints="name"
             android:background="@drawable/rounded_corner"
-            android:hint="Username"
+            android:hint="@string/username"
             android:inputType="text"
             android:padding="18dp"
             android:textColor="@color/black"
@@ -50,7 +50,7 @@
             android:layout_marginTop="20dp"
             android:autofillHints="name"
             android:background="@drawable/rounded_corner"
-            android:hint="Email"
+            android:hint="@string/email"
             android:inputType="textEmailAddress"
             android:padding="18dp"
             android:textColor="@color/black"
@@ -64,7 +64,7 @@
             android:layout_marginTop="20dp"
             android:autofillHints="name"
             android:background="@drawable/rounded_corner"
-            android:hint="Pasword"
+            android:hint="@string/pasword"
             android:inputType="textPassword"
             android:padding="18dp"
             android:textColor="@color/black"
@@ -76,9 +76,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="32dp"
-            android:backgroundTint="#076600"
+            android:background="#076600"
             android:padding="18dp"
-            android:text="LOGIN"
+            android:text="@string/login"
             android:textColor="@color/white"
             android:textSize="18sp" />
 
@@ -93,7 +93,7 @@
                 android:layout_width="54dp"
                 android:layout_height="54dp"
                 android:layout_margin="16dp"
-                android:contentDescription="fb_logo"
+                android:contentDescription="@string/fb_logo"
                 android:src="@drawable/img" />
 
             <ImageView

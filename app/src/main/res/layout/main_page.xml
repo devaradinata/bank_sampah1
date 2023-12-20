@@ -6,18 +6,98 @@
     android:background="@drawable/login_bg"
     android:padding="16dp">
 
+
     <LinearLayout
         android:layout_width="392dp"
         android:layout_height="706dp"
-        android:gravity="center"
         android:orientation="vertical"
+        android:paddingBottom="12dp"
+        android:gravity="left">
 
-    <TextView
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nama_bank_sampah"
+            android:textSize="20sp"
+            android:textColor="@color/black"/>
+
+        <EditText
+
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Hello World"
-            android:gravity="center"
-            android:textSize="35sp"
+            android:layout_marginTop="20dp"
+            android:autofillHints="name"
+            android:hint="@string/Nama"
+            android:background="@drawable/input_text"
+            android:inputType="text"
+            android:padding="14dp"
+            android:layout_marginBottom="20dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/petugas"
+            android:textSize="20sp"
+            android:textColor="@color/black"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:autofillHints="name"
+            android:hint="@string/nama_petugas"
+            android:background="@drawable/input_text"
+            android:inputType="text"
+            android:padding="14dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="16sp"
+            android:layout_marginBottom="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nasabah"
+            android:textSize="20sp"
+            android:textColor="@color/black"/>
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:autofillHints="name"
+            android:hint="@string/nama_nasabah"
+            android:background="@drawable/input_text"
+            android:inputType="text"
+            android:padding="14dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="16sp"
+            android:layout_marginBottom="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tanggal"
+            android:textSize="20sp"
+            android:textColor="@color/black"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:autofillHints="name"
+            android:hint="20 Desember 2023"
+            android:background="@drawable/input_text"
+            android:inputType="text"
+            android:padding="14dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="16sp" />
     </LinearLayout>
 
     </RelativeLayout>
