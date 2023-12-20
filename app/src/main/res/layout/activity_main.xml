@@ -103,7 +103,6 @@
                 android:contentDescription="@string/google_logo"
                 android:src="@drawable/googleLogo" />
 
-
         </LinearLayout>
 
 
