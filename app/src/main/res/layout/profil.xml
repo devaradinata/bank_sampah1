@@ -17,8 +17,8 @@
             android:layout_marginBottom="20dp"
             android:fontFamily="serif"
             android:gravity="center"
-            android:text="Akun Saya"
-            android:textColor="#79AC78"
+            android:text="@string/akun_saya"
+            android:textColor="@color/black"
             android:textSize="35sp"
             android:textStyle="bold" />
 
@@ -27,7 +27,8 @@
             android:layout_height="200dp"
             android:layout_gravity="center"
             android:src="@drawable/user_icon"
-            android:layout_marginBottom="10dp"></ImageView>
+            android:layout_marginBottom="10dp"
+            android:contentDescription="@string/user"/>
 
         <TextView
             android:layout_width="match_parent"
@@ -36,27 +37,24 @@
             android:gravity="center"
             android:text="@string/user_123"
             android:textColor="#000000"
-            android:textSize="38dp"
+            android:textSize="38sp"
             android:textStyle="bold" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="75dp"
-            android:text="User123@gmail.com"
+            android:text="@string/user123_gmail_com"
             android:gravity="center"
-            android:textSize="20dp"
+            android:textSize="20sp"
             android:background="@drawable/input_text"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:gravity="bottom"
-            android:text="Log out"
+            android:text="@string/log_out"
             android:textSize="24sp"
             android:textStyle="bold" />
-
-
-    </LinearLayout>
 
 </LinearLayout>
 

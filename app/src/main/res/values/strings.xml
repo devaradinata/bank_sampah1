@@ -1,21 +1,29 @@
 <resources>
-    <string name="app_name">Bank_Sampah</string>
-    <string name="google_logo">google_logo</string>
-    <string name="logo">Logo</string>
-    <string name="buat_akun">BUAT AKUN</string>
-    <string name="fb_logo">fb_logo</string>
-    <string name="email">Email</string>
-    <string name="login">LOGIN</string>
-    <string name="pasword">Pasword</string>
-    <string name="username">Username</string>
-    <string name="hello_world">Hello World</string>
-    <string name="nama">Nama</string>
-    <string name="nama_bank_sampah">Nama Bank Sampah</string>
-    <string name="bank_sampah">Bank Sampah</string>
-    <string name="nama_petugas">Nama Petugas</string>
+
+    <string name="_20_desember_2023">20 Desember 2023</string>
+    <string name="tanggal">Tanggal</string>
+    <string name="nasabah">Nasabah</string>
     <string name="nama_nasabah">Nama Nasabah</string>
-    <string name="Nama">Nama Bank Sampah</string>
-    <string name="petugas">Nama Petugas</string>
-    <string name="nasabah">Nama Nasabah</string>
+    <string name="petugas">Petugas</string>
+    <string name="nama_petugas">Nama Petugas</string>
+    <string name="bank_sampah">Bank Sampah</string>
+    <string name="nama_bank_sampah">Nama Bank Sampah</string>
+    <string name="img">img</string>
+    <string name="kalkulator">KALKULATOR</string>
+    <string name="down">down</string>
+    <string name="sub_kategori">Sub-Kategori</string>
+    <string name="total_jumlah">Total Jumlah</string>
+    <string name="min">-</string>
+    <string name="number">0</string>
+    <string name="plus">+</string>
     <string name="user_123">User 123</string>
+    <string name="user">user</string>
+    <string name="user123_gmail_com">User123@gmail.com</string>
+    <string name="log_out">Log out</string>
+    <string name="akun_saya">Akun Saya</string>
+    <string name="Down">down</string>
+    <string name="masukkan_data_sampah">Masukkan Data Sampah</string>
+    <string name="kategori">Kategori</string>
+    <string name="Kategori">Kategori</string>
+    <string name="Sub_kategori">Sub Kategori</string>
 </resources>
